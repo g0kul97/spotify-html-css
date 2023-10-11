@@ -1,0 +1,86 @@
+body{
+    font-size: 10px;
+    background-color: #121212;
+    color: white;
+    overflow: hidden;
+}
+h2{
+    padding-top: 25px;
+    padding-left: 258px;
+    font-size: 30px;
+    text-align: left;
+    color: rgb(81, 202, 81);
+}
+h4{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+div#main-menu{
+
+    position: relative;
+    float: left;
+    background-color: #040404;
+    color: rgb(225, 225, 225);
+    padding-top: 25px;
+    width: 230px;
+    height: 829px;
+
+}
+
+div#main-menu td{
+    padding: 8px 50px;
+    font-size: 20px;
+}
+td{
+
+    text-align: left;
+    padding: 50px;
+    margin: 0;
+
+}
+
+img{
+    
+    max-width: 100%;
+    display: block;
+}
+
+
+div#albums1{
+        
+    background-color: #121212;
+    margin: 0px 30px;
+
+}
+
+div#albums2{
+        
+    background-color: #121212;
+    margin: 0px 30px;
+
+}
+.flex{
+
+    display:flex;
+    flex-wrap:wrap;
+    max-width: 100%;
+}
+
+.flex div{
+    flex: 1 1 110px;
+    margin: 10px;
+    padding: 20px 20px 50px 20px;
+    background-color: #282828;
+    border-radius: 10px;
+    max-width: 110px;
+}
+.box:hover{
+    border: 2px solid black;
+
+}
+.box img {
+    width: 100%;
+    height: 80%;
+}
+
